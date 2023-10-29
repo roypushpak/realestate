@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Real Estate</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="style.css" type="text/css" rel="Stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div id="header-hero-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="#">Real Estate</a>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#" target="_blank">Properties</a></li>
+                        <li><a href="#">Agents</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li id="close-flyout"><span class="fas fa-times"></span></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id="hero">
+            <div class="fade"></div>
+            <div class="hero-text">
+                <h1>Buy and sell properties</h1>
+                <p>Canadian Real Estate in the GTA including Mississauga and Brampton.</p>
+            </div>
+        </section>
+    </div>
+
+    <section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="flex">
+                <div>
+                    <span class="fas fa-home"></span>
+                    <h4>Find a Property.</h4>
+                    <p>Search for a property using Kijiji, Realtor.ca, or Zillow.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-dollar-sign"></span>
+                    <h4>Buy a Property.</h4>
+                    <p>Work with a realtor to purchase the best home for you.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-chart-line"></span>
+                    <h4>Investing.</h4>
+                    <p>Purhcase multiple rental properties.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties">
+        <div class="container">
+            <h2>Properties</h2>
+            <div id="properties-slider" class="slick">
+                <div>
+                    <img src="./img/property-6.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$1,200,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            Mississauga, ON
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/property-7.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$1,400,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            Brampton, ON
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/property-4.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$1,700,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            Mississauga, ON
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/property-9.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$2,600,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            Brampton, ON
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/property-3.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$2,400,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            Brampton, ON
+                        </address>
+                    </div>
+                </div>
+            </div>
+
+            <button class="rounded">View All Property Listings</button>
+        </div>
+    </section>
+
+    <section id="agents">
+        <div class="container">
+            <h2>Agents</h2>
+            
+            <div class="flex">
+                <div class="card">
+                    <img src="./img/agent-1.jpg" alt="Realtor 1" />
+                    <h3>John Stevens</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+                <div class="card">
+                    <img src="./img/agent-4.jpg" alt="Realtor 1" />
+                    <h3>Marsha Hughes</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="the-best">
+        <div class="flex container">
+            <img src="./img/post-4.jpg" alt="Property 1" />
+            <div>
+                <h2>Providing home advice with you in mind.</h2>
+                <p>Taking into account your needs and staying within your budget. Finding the best location for you and your family.</p>
+                <ul>
+                    
+                </ul>
+                <button class="rounded">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <div class="flex">
+                <div id="form-container">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" />
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" />
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" />
+
+                        <label for="message">Message</label>
+                        <textarea id="message">Write your message here..</textarea>
+
+                        <button class="rounded">Send Message</button>
+                    </form>
+                </div>
+
+                <div id="address-container">
+                    <label>Address</label>
+                    <address>
+                        Mississauga, ON 
+                    </address>
+
+                    <label>Phone</label>
+                    <a href="#">647-6470-6470</a>
+
+                    <label>Email Address</label>
+                    <a href="#">realtor@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="flex container">
+            <div class="footer-about">
+                <h5>About</h5>
+                <p> Real estate company is looking out for you.</p>
+            </div>
+
+            <div class="footer-quick-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                  
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+               
+                </ul>
+            </div>
+        </div>
+
+        
+    </footer>
+
+   <script src="/app.js"></script>
+</body>
+</html>
